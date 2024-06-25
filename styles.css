@@ -1,0 +1,119 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+  7. Media Queries
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--yellow);
+}
+
+/* 2. Typography Styles
+======================================== */
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.tag {
+  background-color: var(--yellow);
+  font-size: 14px;
+  padding: 4px 12px;
+  width: 82px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.publish-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.blog-summary {
+  font-size: 16px;
+  color: var(--grey);
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.blog-author p {
+  font-weight: 800;
+}
+
+h1, h2, p {
+  font-family: Figtree;
+  text-align: left;
+}
+
+/* 3. Structure Styles
+======================================== */
+.blog-author {
+  display: grid;
+  grid-template-columns: 32px 97px;
+  gap: 12px;
+  align-items: center;
+}
+
+.blog-info{
+  margin: 24px;
+}
+
+/* 4. Modules Styles
+======================================== */
+/* Site Navigation */
+/* Site Footer */
+footer {
+  padding: 90px 0 15px 0;
+}
+
+/* 5. Component Styles
+======================================== */
+.card {
+  width: 384px;
+  height: 522px;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  border: 1px solid var(--black);
+  margin: auto;
+  margin-top: 219px;
+}
+
+/* 6. Page Styles
+======================================== */
+.blog-img {
+  width: 336px;
+  height: 200px;
+  margin: 24px 24px 0 24px;
+  border-radius: 10px;
+}
+
+.blog-author img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+/* 7. Media Queries
+======================================== */
