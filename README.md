@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [View on Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/blog-preview-html-css-KdE1vQXuj_))
 - Live Site URL: [View via GitHub Pages]([https://your-live-site-url.com](https://kiaraaa123.github.io/blog-preview-frontend-mentor/))
 
 
